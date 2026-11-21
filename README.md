@@ -2,7 +2,7 @@
 
 把一份「操作者行为准则」变成 DeepSeek Harness 的系统提示词段落。插件启用期间，本 profile 里每个会话、每次模型请求都会带上这段准则；停用后段落随插件卸载消失，行为回到 DSH 默认。
 
-这是给 [DeepSeek Harness](https://github.com/deepseek-ai) 用的 Host 侧插件（bundle），没有前端代码。
+这是给 [DeepSeek Harness](https://github.com/deepseek-ai) 用的 Host 侧插件（bundle），没有前端代码。---也就是说，这是个可以解除某周限制的插件。
 
 ## 效果
 

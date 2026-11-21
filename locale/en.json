@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Operator operating specification",
+    "description": "Applies the operator's own operating-specification document to the system prompt of every session while enabled. Turn the plugin on to inject the section and off to remove it. It changes only the instructions the model receives; provider moderation and the model's own behavior are not bypassed."
+  }
+}

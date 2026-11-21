@@ -1,0 +1,45 @@
+{
+  "name": "@local/operator-spec",
+  "version": "1.0.0",
+  "description": "Inject an operator-authored operating specification as a system-prompt section in DeepSeek Harness.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Q2Ball (https://github.com/nailiang002-wq)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nailiang002-wq/dsh-operator-spec.git"
+  },
+  "homepage": "https://github.com/nailiang002-wq/dsh-operator-spec#readme",
+  "bugs": {
+    "url": "https://github.com/nailiang002-wq/dsh-operator-spec/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "system-prompt",
+    "prompt",
+    "persona"
+  ],
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "spec.md",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
